@@ -1,0 +1,35 @@
+digraph G {
+  2 [label="com.google.android.gms.ads.AdActivity,Cnt:3396", fillcolor="cyan:yellow", style="filled"];
+  6 [label="com.merriamwebster.dictionary.activity.dictionary.DictionaryActivity,Cnt:1354", fillcolor="cyan:yellow", style="filled"];
+  9 [label="com.merriamwebster.games.activity.GamePlayActivity,Cnt:116", fillcolor="cyan:yellow", style="filled"];
+  0 [label="com.google.android.gms.ads.AdActivity,Cnt:58"];
+  3 [label="com.merriamwebster.dictionary.activity.dictionary.DictionaryActivity,Cnt:48"];
+  8 [label="com.merriamwebster.games.activity.GamePlayActivity,Cnt:23"];
+  5 [label="com.merriamwebster.dictionary.activity.dictionary.DictionaryActivity,Cnt:15"];
+  1 [label="com.google.android.gms.ads.AdActivity,Cnt:13"];
+  7 [label="com.merriamwebster.games.activity.GamePlayActivity,Cnt:5"];
+  4 [label="com.merriamwebster.dictionary.activity.dictionary.DictionaryActivity,Cnt:1"];
+  10 [label="TERMINAL",shape=diamond];
+  11 [label="INITIAL",shape=box];
+2->2 [label="P: 0.98, Cnt: 3326", color="crimson", penwidth=4];
+6->6 [label="P: 0.95, Cnt: 1290", color="crimson", penwidth=4];
+9->9 [label="P: 0.78, Cnt: 90", color="crimson", penwidth=4];
+0->6 [label="P: 1.00, Cnt: 58"];
+2->0 [label="P: 0.02, Cnt: 58"];
+3->2 [label="P: 1.00, Cnt: 48"];
+6->3 [label="P: 0.04, Cnt: 48"];
+9->8 [label="P: 0.20, Cnt: 23"];
+8->2 [label="P: 0.96, Cnt: 22"];
+6->5 [label="P: 0.01, Cnt: 15"];
+5->9 [label="P: 0.93, Cnt: 14"];
+1->9 [label="P: 0.92, Cnt: 12"];
+2->1 [label="P: 0.00, Cnt: 12"];
+7->6 [label="P: 1.00, Cnt: 5"];
+9->7 [label="P: 0.03, Cnt: 3"];
+1->7 [label="P: 0.08, Cnt: 1"];
+4->10 [label="P: 1.00, Cnt: 1"];
+5->7 [label="P: 0.07, Cnt: 1"];
+6->4 [label="P: 0.00, Cnt: 1"];
+8->1 [label="P: 0.04, Cnt: 1"];
+11->6 [label="P: 1.00, Cnt: 1"];
+}

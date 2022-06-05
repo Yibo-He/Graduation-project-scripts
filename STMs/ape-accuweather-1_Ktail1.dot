@@ -1,0 +1,21 @@
+digraph G {
+  0 [label="com.accuweather.android.activities.MainActivity"];
+  1 [label="com.accuweather.android.activities.OnboardingActivity"];
+  2 [label="com.accuweather.android.activities.SplashActivity"];
+  3 [label="com.accuweather.android.activities.WhatsNewActivity"];
+  4 [label="com.google.android.gms.ads.AdActivity"];
+  5 [label="TERMINAL",shape=diamond];
+  6 [label="INITIAL",shape=box];
+0->0 [label="P: 0.97, Cnt: 1425"];
+0->3 [label="P: 0.00, Cnt: 3"];
+0->4 [label="P: 0.02, Cnt: 34"];
+0->5 [label="P: 0.00, Cnt: 1"];
+1->0 [label="P: 0.17, Cnt: 1"];
+1->1 [label="P: 0.83, Cnt: 5"];
+2->0 [label="P: 1.00, Cnt: 2"];
+3->0 [label="P: 1.00, Cnt: 3"];
+4->0 [label="P: 0.02, Cnt: 32"];
+4->2 [label="P: 0.00, Cnt: 2"];
+4->4 [label="P: 0.98, Cnt: 1719"];
+6->1 [label="P: 1.00, Cnt: 1"];
+}

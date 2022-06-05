@@ -1,0 +1,16 @@
+digraph G {
+  2 [label="net.zedge.android.activity.ControllerActivity,Cnt:863", fillcolor="cyan:yellow", style="filled"];
+  1 [label="com.mopub.common.MoPubBrowser,Cnt:99", fillcolor="cyan:yellow", style="filled"];
+  0 [label="com.google.android.gms.ads.AdActivity,Cnt:75", fillcolor="cyan:yellow", style="filled"];
+  3 [label="TERMINAL",shape=diamond];
+  4 [label="INITIAL",shape=box];
+2->2 [label="P: 0.90, Cnt: 775", color="crimson", penwidth=4];
+1->2 [label="P: 0.84, Cnt: 83", color="crimson", penwidth=4];
+2->1 [label="P: 0.10, Cnt: 83", color="crimson", penwidth=4];
+0->0 [label="P: 0.95, Cnt: 71"];
+1->1 [label="P: 0.16, Cnt: 16"];
+0->2 [label="P: 0.05, Cnt: 4"];
+2->0 [label="P: 0.00, Cnt: 4"];
+2->3 [label="P: 0.00, Cnt: 1"];
+4->2 [label="P: 1.00, Cnt: 1"];
+}

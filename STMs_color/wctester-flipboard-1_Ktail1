@@ -1,0 +1,30 @@
+digraph G {
+  3 [label="flipboard.activities.SectionActivity,Cnt:593", fillcolor="cyan:yellow", style="filled"];
+  1 [label="flipboard.activities.DetailActivityStayOnRotation,Cnt:255", fillcolor="cyan:yellow", style="filled"];
+  0 [label="flipboard.activities.CommentsActivity,Cnt:73", fillcolor="cyan:yellow", style="filled"];
+  5 [label="flipboard.gui.board.HomeCarouselActivity,Cnt:19"];
+  2 [label="flipboard.activities.GenericFragmentActivity,Cnt:12"];
+  4 [label="flipboard.activities.SettingsDensityActivity,Cnt:3"];
+  6 [label="TERMINAL",shape=diamond];
+  7 [label="INITIAL",shape=box];
+3->3 [label="P: 0.73, Cnt: 431", color="crimson", penwidth=4];
+3->1 [label="P: 0.21, Cnt: 126", color="crimson", penwidth=4];
+1->1 [label="P: 0.48, Cnt: 122", color="crimson", penwidth=4];
+1->3 [label="P: 0.47, Cnt: 121"];
+0->0 [label="P: 0.59, Cnt: 43"];
+0->3 [label="P: 0.37, Cnt: 27"];
+3->0 [label="P: 0.04, Cnt: 22"];
+5->5 [label="P: 0.74, Cnt: 14"];
+2->3 [label="P: 1.00, Cnt: 12"];
+3->2 [label="P: 0.02, Cnt: 12"];
+1->0 [label="P: 0.03, Cnt: 8"];
+1->5 [label="P: 0.02, Cnt: 4"];
+5->1 [label="P: 0.21, Cnt: 4"];
+0->1 [label="P: 0.04, Cnt: 3"];
+4->4 [label="P: 0.67, Cnt: 2"];
+3->4 [label="P: 0.00, Cnt: 1"];
+3->6 [label="P: 0.00, Cnt: 1"];
+4->3 [label="P: 0.33, Cnt: 1"];
+5->3 [label="P: 0.05, Cnt: 1"];
+7->5 [label="P: 1.00, Cnt: 1"];
+}

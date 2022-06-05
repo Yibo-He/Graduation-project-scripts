@@ -1,0 +1,29 @@
+digraph G {
+  0 [label="com.google.android.apps.youtube.app.WatchWhileActivity"];
+  1 [label="com.google.android.apps.youtube.app.extensions.reel.watch.activity.ReelWatchActivity"];
+  2 [label="com.google.android.apps.youtube.app.settings.SettingsActivity"];
+  3 [label="com.google.android.apps.youtube.app.settings.accessibility.AccessibilitySettingsActivity"];
+  4 [label="com.google.android.libraries.social.licenses.LicenseMenuActivity"];
+  5 [label="com.google.android.libraries.youtube.mdx.smartpairing.PairWithTvActivity"];
+  6 [label="TERMINAL",shape=diamond];
+  7 [label="INITIAL",shape=box];
+0->0 [label="P: 0.99, Cnt: 2270"];
+0->1 [label="P: 0.00, Cnt: 1"];
+0->2 [label="P: 0.01, Cnt: 24"];
+0->5 [label="P: 0.00, Cnt: 8"];
+0->6 [label="P: 0.00, Cnt: 1"];
+1->0 [label="P: 0.09, Cnt: 1"];
+1->1 [label="P: 0.91, Cnt: 10"];
+2->0 [label="P: 0.13, Cnt: 24"];
+2->2 [label="P: 0.81, Cnt: 154"];
+2->3 [label="P: 0.02, Cnt: 3"];
+2->4 [label="P: 0.01, Cnt: 1"];
+2->5 [label="P: 0.05, Cnt: 9"];
+3->2 [label="P: 0.60, Cnt: 3"];
+3->3 [label="P: 0.40, Cnt: 2"];
+4->2 [label="P: 1.00, Cnt: 1"];
+5->0 [label="P: 0.02, Cnt: 8"];
+5->2 [label="P: 0.02, Cnt: 9"];
+5->5 [label="P: 0.96, Cnt: 453"];
+7->0 [label="P: 1.00, Cnt: 1"];
+}

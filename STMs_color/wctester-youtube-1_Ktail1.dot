@@ -1,0 +1,8 @@
+digraph G {
+  0 [label="com.google.android.apps.youtube.app.WatchWhileActivity,Cnt:968", fillcolor="cyan:yellow", style="filled"];
+  1 [label="TERMINAL",shape=diamond];
+  2 [label="INITIAL",shape=box];
+0->0 [label="P: 1.00, Cnt: 967", color="crimson", penwidth=4];
+0->1 [label="P: 0.00, Cnt: 1", color="crimson", penwidth=4];
+2->0 [label="P: 1.00, Cnt: 1", color="crimson", penwidth=4];
+}

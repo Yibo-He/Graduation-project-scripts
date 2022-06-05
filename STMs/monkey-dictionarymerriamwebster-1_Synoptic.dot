@@ -1,0 +1,12 @@
+digraph G {
+  0 [label="com.google.android.gms.ads.AdActivity"];
+  1 [label="com.merriamwebster.dictionary.activity.dictionary.DictionaryActivity"];
+  2 [label="TERMINAL",shape=diamond];
+  3 [label="INITIAL",shape=box];
+0->0 [label="P: 0.99, Cnt: 194"];
+0->1 [label="P: 0.01, Cnt: 1"];
+0->2 [label="P: 0.01, Cnt: 1"];
+1->0 [label="P: 0.03, Cnt: 2"];
+1->1 [label="P: 0.97, Cnt: 56"];
+3->1 [label="P: 1.00, Cnt: 1"];
+}

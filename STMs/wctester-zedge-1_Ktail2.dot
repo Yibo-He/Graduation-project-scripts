@@ -1,0 +1,30 @@
+digraph G {
+  0 [label="com.google.android.gms.ads.AdActivity"];
+  1 [label="com.google.android.gms.ads.AdActivity"];
+  2 [label="com.mopub.common.MoPubBrowser"];
+  3 [label="com.mopub.common.MoPubBrowser"];
+  4 [label="net.zedge.android.activity.ControllerActivity"];
+  5 [label="net.zedge.android.activity.ControllerActivity"];
+  6 [label="net.zedge.android.activity.ControllerActivity"];
+  7 [label="net.zedge.android.activity.ControllerActivity"];
+  8 [label="TERMINAL",shape=diamond];
+  9 [label="INITIAL",shape=box];
+0->1 [label="P: 0.04, Cnt: 3"];
+0->0 [label="P: 0.96, Cnt: 68"];
+1->6 [label="P: 0.25, Cnt: 1"];
+1->7 [label="P: 0.75, Cnt: 3"];
+2->2 [label="P: 0.38, Cnt: 6"];
+2->3 [label="P: 0.63, Cnt: 10"];
+3->6 [label="P: 0.39, Cnt: 32"];
+3->7 [label="P: 0.61, Cnt: 51"];
+4->8 [label="P: 1.00, Cnt: 1"];
+5->1 [label="P: 0.25, Cnt: 1"];
+5->0 [label="P: 0.75, Cnt: 3"];
+6->2 [label="P: 0.12, Cnt: 10"];
+6->3 [label="P: 0.88, Cnt: 73"];
+7->4 [label="P: 0.00, Cnt: 1"];
+7->5 [label="P: 0.01, Cnt: 4"];
+7->6 [label="P: 0.06, Cnt: 50"];
+7->7 [label="P: 0.93, Cnt: 720"];
+9->7 [label="P: 1.00, Cnt: 1"];
+}

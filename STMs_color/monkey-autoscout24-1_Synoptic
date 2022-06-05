@@ -1,0 +1,15 @@
+digraph G {
+  1 [label="com.autoscout24.ui.activities.MainActivity,Cnt:1492", fillcolor="cyan:yellow", style="filled"];
+  0 [label="com.autoscout24.detailpage.gallery.GalleryActivity,Cnt:545", fillcolor="cyan:yellow", style="filled"];
+  2 [label="com.autoscout24.ui.activities.MainActivity,Cnt:26", fillcolor="cyan:yellow", style="filled"];
+  3 [label="TERMINAL",shape=diamond];
+  4 [label="INITIAL",shape=box];
+1->1 [label="P: 0.99, Cnt: 1471", color="crimson", penwidth=4];
+0->0 [label="P: 0.96, Cnt: 524", color="crimson", penwidth=4];
+2->2 [label="P: 0.96, Cnt: 25", color="crimson", penwidth=4];
+1->0 [label="P: 0.01, Cnt: 21"];
+0->1 [label="P: 0.04, Cnt: 20"];
+0->2 [label="P: 0.00, Cnt: 1"];
+2->3 [label="P: 0.04, Cnt: 1"];
+4->1 [label="P: 1.00, Cnt: 1"];
+}

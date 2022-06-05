@@ -1,0 +1,27 @@
+digraph G {
+  0 [label="com.facebook.FacebookActivity"];
+  1 [label="com.google.android.gms.ads.AdActivity"];
+  2 [label="com.mopub.common.MoPubBrowser"];
+  3 [label="com.ogury.cm.ConsentActivity"];
+  4 [label="com.tapr.internal.activities.survey.SurveyActivity"];
+  5 [label="net.zedge.android.activity.ControllerActivity"];
+  6 [label="TERMINAL",shape=diamond];
+  7 [label="INITIAL",shape=box];
+0->0 [label="P: 0.95, Cnt: 168"];
+0->5 [label="P: 0.05, Cnt: 9"];
+1->1 [label="P: 0.98, Cnt: 3216"];
+1->4 [label="P: 0.00, Cnt: 1"];
+1->5 [label="P: 0.02, Cnt: 60"];
+2->2 [label="P: 0.48, Cnt: 51"];
+2->5 [label="P: 0.52, Cnt: 55"];
+3->3 [label="P: 0.99, Cnt: 158"];
+3->5 [label="P: 0.01, Cnt: 1"];
+4->1 [label="P: 1.00, Cnt: 1"];
+5->0 [label="P: 0.01, Cnt: 9"];
+5->1 [label="P: 0.04, Cnt: 60"];
+5->2 [label="P: 0.03, Cnt: 55"];
+5->3 [label="P: 0.00, Cnt: 1"];
+5->5 [label="P: 0.92, Cnt: 1517"];
+5->6 [label="P: 0.00, Cnt: 1"];
+7->5 [label="P: 1.00, Cnt: 1"];
+}

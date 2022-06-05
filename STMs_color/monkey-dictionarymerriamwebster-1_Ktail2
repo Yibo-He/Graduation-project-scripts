@@ -1,0 +1,18 @@
+digraph G {
+  2 [label="com.google.android.gms.ads.AdActivity,Cnt:194", fillcolor="cyan:yellow", style="filled"];
+  4 [label="com.merriamwebster.dictionary.activity.dictionary.DictionaryActivity,Cnt:56", fillcolor="cyan:yellow", style="filled"];
+  3 [label="com.merriamwebster.dictionary.activity.dictionary.DictionaryActivity,Cnt:2", fillcolor="cyan:yellow", style="filled"];
+  0 [label="com.google.android.gms.ads.AdActivity,Cnt:1"];
+  1 [label="com.google.android.gms.ads.AdActivity,Cnt:1"];
+  5 [label="TERMINAL",shape=diamond];
+  6 [label="INITIAL",shape=box];
+2->2 [label="P: 0.99, Cnt: 192", color="crimson", penwidth=4];
+4->4 [label="P: 0.96, Cnt: 54", color="crimson", penwidth=4];
+3->2 [label="P: 1.00, Cnt: 2", color="crimson", penwidth=4];
+4->3 [label="P: 0.04, Cnt: 2"];
+0->4 [label="P: 1.00, Cnt: 1"];
+1->5 [label="P: 1.00, Cnt: 1"];
+2->0 [label="P: 0.01, Cnt: 1"];
+2->1 [label="P: 0.01, Cnt: 1"];
+6->4 [label="P: 1.00, Cnt: 1"];
+}
